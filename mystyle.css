@@ -5,4 +5,85 @@
 
 body {
 	background-color: lightblue;
+
 }
+
+.logo-img{   
+				/*play with borders and margin around images */
+				border: 5x solid red;
+				margin-bottom: 20px;
+			}
+			
+			div {
+				border: 1px  solid   red;
+				/*play with margins */
+			}
+			
+			body{
+				background-color: pink;
+			}
+						
+			.box1, box2{
+				/* give both box1 and box2 the same font-family*/
+				
+				font-family: Arial, modern;
+			}
+			
+			.box1 a:link{	/*style only the links found in the box1 */
+				/* style the links static, active, hover, visited */
+				background-color:yellow;
+				}
+				
+			.box1 a:visited {
+			background-color:yellow; 
+			}
+			
+			.box1 a:hover {
+			
+			background-color: blue;
+			}
+			
+			.box1 a:active {
+			background-color: green;
+			}
+			.box1 a:focus  {
+				background-color: purple ;
+			}
+			
+			.box1 {
+				/* Set appropriate width */
+				width: 200px;
+				float:left;
+				margin-right:50px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left:50px;
+				
+			}
+			
+			.box2 {
+				/* set appropriate width */
+				width:600px;
+				height:600px;
+				/* change to allow scrollbars to appear */
+				overflow:auto;
+				margin-right: 50px;
+			margin-left: 50px;
+			margin-bottom: 50px;
+			margin-top: 50px; 
+				
+				
+			}
+			
+			.navbar {
+			overflow:hidden;
+			background-color:blue;
+			font-family: Arial;
+			
+			
+			/* use float to create desired layout with margin space between box1 and box2*/
+			
+		
+			
+			/* follow instructions (https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp) from w3schools to change navigation bar into drop-down list */
+			
